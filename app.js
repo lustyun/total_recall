@@ -476,14 +476,10 @@ function maxOfThree(num1, num2, num3) {
    }
    if (num3 > max) {
      max = num3;
-   }
-   return max;
+    }
+    return max;
  }
- 
  console.log(maxOfThree(6, 9, 1));
- 
-
-
 
 // ### H. printLongestWord
 // Write a function printLongestWordthat accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
@@ -648,13 +644,28 @@ for (let i = 0; i < user.friend.purchased.length; i++) {
 
 // Write a function oldAndLoudthat performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoudfunction with useras the argument.
 // Iterate over the User's purchased array
+// Function to update user
+
+function updateUser() {
+  user.age++; // Increment age by 1
+  user.name = user.name.toUpperCase(); // Make name uppercase
+}
+
+// Function to modify object and perform the same tasks
+function oldAndLoud(person) {
+  person.age++; // Increment age by 1
+  person.name = person.name.toUpperCase(); // Make name uppercase
+}
+
+// Calling the updateUser function
+updateUser();
+
+// Calling the oldAndLoud function with user as the argument
+oldAndLoud(user);
+
+// Iterate over the User's purchased array
 console.log("User's Purchased Items:");
 for (let i = 0; i < user.purchased.length; i++) {
   console.log(user.purchased[i]);
 }
 
-// Iterate over the Friend's purchased array
-console.log("Friend's Purchased Items:");
-for (let i = 0; i < user.friend.purchased.length; i++) {
-  console.log(user.friend.purchased[i]);
-}
