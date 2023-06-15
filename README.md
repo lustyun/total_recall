@@ -13,14 +13,33 @@ For example: `let a = 0`
 5. What is pseudocoding and why should you do it?
 
 Pseudocoding is writing code in plain spoken language that humans can understand.
-
 It's important because it allows you to write the logic and steps of the you want to accomplish in code without worrying about the rigid syntax.
-
 Psuedocode allows us to break down problems into solvable peices that can be transfered to code. 
-
 Psudocode is the bridge between our minds and the code. 
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+
+1. 
+To assign a value to a variable in JavaScript:
+let variableName = value;
+
+2. 
+To change the value of a variable:
+variableName = newValue;
+
+3. 
+To assign an existing variable to a new variable:
+let newVariableName = existingVariableName;
+
+4. 
+Declaration, assignment, and definition have similar meanings in JavaScript as explained earlier.
+
+5. 
+Pseudocoding is the practice of writing out the logic of a program in plain, human-readable language without worrying about the specific syntax of JavaScript. It helps in planning the solution and communicating ideas before writing actual code.
+
+6. 
+The recommended percentage of time spent thinking about problem-solving versus typing in code is around 70-80%.
+
 
 ## Strings
 
